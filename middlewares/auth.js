@@ -1,8 +1,9 @@
-const auth = (req, res, next)=>{
-//Authentication logic goes here
+const auth = (req, res, next) => {
+  //Authentication logic goes here
+    console.log(req.headers);
 
-
-    next(); // Talako code lai chalna dinxa
+    // if(!authori)
+  next(); // Talako code lai chalna dinxa
 };
 
 export default auth;

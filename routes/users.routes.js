@@ -1,8 +1,8 @@
 import express from "express";
-import userRegister from "./controllers/userRegister.js";
-import userLogin from "./controllers/userLogin.js";
-import userDashboard from "./controllers/userDashboard.js";
-import auth from "../../middlewares/auth.js";
+import userRegister from "../controllers/userRegister.js";
+import userLogin from "../controllers/userLogin.js";
+import userDashboard from "../controllers/userDashboard.js";
+import auth from "../middlewares/auth.js";
 
 const userRouter = express.Router();    // Create a new router object
 
